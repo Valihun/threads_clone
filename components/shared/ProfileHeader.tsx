@@ -6,7 +6,8 @@ interface Props {
 	name: string,
 	username: string,
 	imgUrl: string,
-	bio: string
+	bio: string,
+	type?: 'User' | 'Community',
 }
 
 
